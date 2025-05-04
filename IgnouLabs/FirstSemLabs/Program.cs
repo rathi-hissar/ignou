@@ -17,10 +17,9 @@ namespace FirstSemLabs
                                  .ToArray();
 
             Console.WriteLine("Original Array: " + string.Join(", ", numbers));
-
-            // Perform Bubble Sort
-            BubbleSort.Sort(numbers);
-
+            //BubbleSort.Sort(numbers);
+            MergeSort.Sort(numbers);
+            //QuickSort.Sort(numbers);
             Console.WriteLine("Sorted Array: " + string.Join(", ", numbers));
         }
     }
